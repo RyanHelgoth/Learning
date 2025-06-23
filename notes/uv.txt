@@ -1,0 +1,6 @@
+Create venv: uv venv
+List python versions: uv python List 
+List python versions but ignore system installations: uv python list --managed-python
+Install latest python version: uv python install 
+Activate venv: source .venv/Scripts/activate
+Deactivate venv: deactivate

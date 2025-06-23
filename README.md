@@ -9,6 +9,8 @@
 - Pydantic
 
 ## Other things to try:
+- Testing with mocks/patching (try testing code with api call)
+- Integration testing
 - Gather user stories / kanban
 - UML
 - Copilot 
