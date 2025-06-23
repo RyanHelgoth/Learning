@@ -1,6 +1,6 @@
 # Learning
 ## Tech to try:
-- Type hints
+- Type hints 
 - UV / .toml files
 - Pytest
 - Github actions
