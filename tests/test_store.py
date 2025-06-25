@@ -1,6 +1,9 @@
-from Item import Item 
-from Store import Store
+
+from classes.Item import Item 
+from classes.Store import Store
 from pytest_mock import MockFixture
+
+
 
 
 import pytest
@@ -19,5 +22,5 @@ class TestStore:
 
 
     def test_profits(self, mocker: MockFixture) -> None:
-        mocker.patch("Store.Store.inventory_value", return_value=244.98)
+        mocker.patch("classes.Store.Store.inventory_value", return_value=244.98)
         assert pytest.approx(self.store.profit()) == 187.75
